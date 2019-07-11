@@ -109,7 +109,7 @@ int main()
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3); // 次版本号
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE); // 核心模式
     
-#ifdef ____
+#ifdef __APPLE__
     glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE); // macOS中需要加上这行代码，配置才能生效
 #endif
     

@@ -11,3 +11,5 @@
 
 ### 目录
 1. [环境搭建](./Environmental/README.md)
+2. [你好，三角形](./Triangle/README.md)
+
