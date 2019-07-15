@@ -177,3 +177,6 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height)
 ### 运行
 ![屏幕快照](https://i.loli.net/2019/07/10/5d258df5879f388704.png)
 至此，可以看见上图这样一个窗口。
+
+## GitHub
+[Self-learningOpenGL](https://github.com/imonster/Self-learningOpenGL)
