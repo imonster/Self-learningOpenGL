@@ -64,19 +64,19 @@ int main()
         glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
         
-        // glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
+        // 交换缓冲区和轮询IO事件(按下/释放键，移动鼠标等)
         // -------------------------------------------------------------------------------
         glfwSwapBuffers(window);
         glfwPollEvents();
     }
     
-    // glfw: 正确释放/删除之前的分配的所有资源
+    // 正确释放/删除之前的分配的所有资源
     // ------------------------------------------------------------------
     glfwTerminate();
     return 0;
 }
 
-// process all input: query GLFW whether relevant keys are pressed/released this frame and react accordingly
+// 处理所有输入:查询GLFW是否按下/释放了此帧的相关键，并做出相应的反应
 // ---------------------------------------------------------------------------------------------------------
 void processInput(GLFWwindow *window)
 {
@@ -84,7 +84,7 @@ void processInput(GLFWwindow *window)
         glfwSetWindowShouldClose(window, true);
 }
 
-// glfw: 在每次窗口大小被调整的时候被调用
+// 在每次窗口大小被调整的时候被调用
 // ---------------------------------------------------------------------------------------------
 void framebuffer_size_callback(GLFWwindow* window, int width, int height)
 {
